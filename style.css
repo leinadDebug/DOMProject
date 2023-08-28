@@ -1,0 +1,190 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{font-family: 'kumbh Sans';}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px burlywood;
+}
+body{width: 100vw;}
+/* header {
+    position: static;
+    background-color: aqua;
+    left: 0;
+    right: 0;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  } */
+
+  /* last Edit */
+  /* new cart window */
+  .cart-button{
+    border: none;
+    height: 3vh;
+    padding: 10px;
+    position: absolute;
+    left: 80%;
+    background-color: transparent;
+  }
+  .whole-cart-window {
+    position: fixed;
+    top: 12vh;
+    border: 2px orange solid;
+    border-top: none;
+    right: 0;
+    margin-right: 2%;
+    border-radius: 12px;
+    background-color: #fff;
+  }
+  .cart {
+    font-size: 23px;
+    padding: 3%;
+  }
+  .cartbox {
+    position: absolute;
+    left: 72%;
+    top: 30px;
+    width: 26%;
+    border: 2px orange solid;
+    border-radius: 10px;
+  }
+  .cart-wrapper {
+    max-height: 150px;
+  }
+  .cart-item {
+    display: grid;
+    grid-template-columns: 2fr 6fr 0.5fr;
+    align-items: center;
+    padding: 5%;
+    margin-bottom: 5%;
+    border-bottom: 1px lightblue solid;
+  }
+  .cart-icon {
+    text-align: right;
+  }
+  .whole-cart-window > h1 {
+    color: rgb(74, 50, 23);
+    font-family: "Philosopher", sans-serif;
+  }
+  .checkoutBtn {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: aliceblue;
+    background-color: orange;
+    border-radius: 10px;
+    height: 42px;
+    font-family: "Philosopher", sans-serif;
+    font-size: large;
+  }
+  .img-on-cart {
+    max-width: 4vw;
+    border-radius: 5px;
+  }
+  .details {
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .orderPrice {
+    padding: 3% 0;
+  }
+  
+  .total {
+    margin-left: 5%;
+  }
+  /* end */
+
+.logo{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.nav_list{
+    margin: 2em;
+}
+.nav_list>a{text-decoration: none; margin-right: 1em; color: hsl(0, 2%, 37%); font-size: 18px;}
+
+/* .i, .profile_img{justify-content: flex-end; float: right;} */
+img{border-radius: 10px;}
+
+.profile_img{width: 35px;}
+
+.page_content{display: flex;  padding: 10vh; gap: 30px;}
+
+.cover-pic{width: 57vh; height: 57vh;}
+
+.thumbnails{display: flex;padding-top: 18px;  gap: 25px;  justify-content: center;}
+
+.thumbnails>img{width: 16%;}
+
+.content1{column-gap: 40px; text-align: center;}
+
+.content2{
+    padding: 4em 2em;
+}
+
+h3{ margin: 0; color: orange; }
+h1{
+    font-size: 50px;
+    width: 60vh;
+    padding-top: 10px;
+    font-weight: 530;
+    font-family: 'kumbh Sans', sans-serif;
+}
+
+p{
+    width: 70%;
+    padding: 1.4em 0;
+}
+
+.Current-price{
+    font-size: 34px;
+}
+
+.Current-price>span{
+    font-size: 18px;
+    color: orange;
+    background-color: rgb(255, 244, 224);
+    border-radius: 10px;
+    padding:5px;
+    margin-left: 10px;
+}
+
+.Initial-price{
+    font-size: 18px;
+    color: hsl(0, 0%, 57%);
+    text-decoration: line-through;
+}
+
+.purchase-Count{padding: 20px 0; display: flex;gap: 10px;}
+.countBar{border-radius: 10%;;background-color: rgb(234, 234, 234); width: fit-content; font-size: 13px;align-self: baseline;}
+.incrementBtn,.decrementBtn{
+    border-style: hidden;
+    font-size: 26px;
+    width: 50px;
+    height: 40px;
+    color: orange;
+    border-radius: 10%;
+}
+.add-to-cart{
+    height: 40px;
+    width: 40vh;
+    color: aliceblue;
+    background-color: orange;
+    border-style: none;
+    border-radius: 10px;
+}
